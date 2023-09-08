@@ -1,0 +1,109 @@
+//FOOTER
+
+@media (min-width: 576px) {
+
+	footer {
+		font-size: 10px;
+		position: relative;
+		padding: 40px 0 20px 0;
+		background-color: $header-color;
+
+		path {
+			&:hover {
+				color: $azulado;
+			}
+		}
+        
+		.logo {
+			padding-left: 20px;
+		}
+
+		div {
+			ul {
+				list-style: none;
+			}
+		}
+
+		a {
+			padding: 0px 0 40px 0;
+			display: inline-block;
+			color: $color-fuente;
+			font-family: $font-titles;
+			font-weight: 700;
+			font-size: 12px;
+		}
+
+		p {
+			font-size: 9px;
+			font-family: $tituloAlbum;
+			padding: 0px;
+		}
+
+		.col-11 {
+			width: 27%;
+		}
+		.col-12 {
+			width: 41%;
+		}
+	}
+
+	.menu {
+		padding-top: 10px;
+	}
+
+	.mostrar {
+		display: none;
+	}
+
+	.socialMedia {
+		margin-left: 15px;
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 776px) {
+
+	footer {
+		.logo {
+			padding-left: 40px;
+		}
+		a {
+			font-size: 14px;
+			padding-bottom: 0px;
+		}
+		.col-12 {
+			width: 35%;
+		}
+	}
+
+	.socialMedia {
+		margin-left: 30px;
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 996px) {
+    
+	.socialMedia {
+		margin-left: 35px;
+		font-size: 30px;
+		padding-top: 10px;
+	}
+
+	.mostrar {
+		display: inline-block;
+	}
+
+	footer {
+		.logo {
+			padding-left: 50px;
+			padding-top: 15px;
+		}
+		.col-11 {
+			width: 27%;
+		}
+		.col-12 {
+			width: 41%;
+		}
+	}
+}

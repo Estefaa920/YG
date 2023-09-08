@@ -1,0 +1,255 @@
+//SEGUNDA PAGINA
+
+@media (min-width: 556px) {
+
+	.centrado {
+		font-family: $font-titles;
+		font-size: 22px;
+		font-weight: 700;
+		color: $background-gray-claro;
+		position: absolute;
+		top: 88%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.centrado2 {
+		font-family: $tituloAlbum;
+		font-size: 10px;
+		color: $background-gray-claro;
+		font-weight: 500;
+		position: absolute;
+		top: 95%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.empresas {
+		margin-bottom: 100px;
+		font-family: $texto-simple;
+		color: $color-fuente;
+		font-weight: 500;
+		font-size: 12px;
+		text-align: end;
+		padding-left: 50px;
+	}
+    
+	.famosos {
+		display: -ms-grid;
+		display: grid;
+		align-items: center;
+		justify-content: center;
+		justify-items: center;
+		text-align: center;
+
+		div {
+			margin-top: 20px;
+			margin-left: 20px;
+
+			p {
+				margin-top: 50px;
+				padding-right: 20px;
+				font-family: $texto-simple;
+				color: $color-fuente;
+				font-weight: 500;
+				width: 100%;
+				margin-bottom: 50px;
+			}
+
+			img {
+				margin-left: 90px;
+			}
+		}
+
+		.col-5 {
+			width: 50%;
+		}
+	}
+
+	.bordeImg {
+		border:$header-color solid 7px;
+		margin-left: 0px;
+	}
+
+	.borderImgBiza {
+		border-right: $header-color solid 3px;
+		border-bottom: $header-color solid 8px;
+		margin-left: 0px;
+	}
+
+	.lanzamientos {
+
+		margin-top: 120px;
+		margin-bottom: 100px;
+		padding-bottom: 40px;
+		background-color: $background-gray-claro;
+		padding-left: 50px;
+		border-radius: 1%;
+		margin-left: 0px;
+		margin-right: 0px;
+
+		div {
+			margin-top: 40px;
+			margin-bottom: 40px;
+			
+			p {
+				font-family: $texto-simple;
+				font-weight: 500;
+				font-size: 11px;
+				margin-top: 20px;
+				margin-bottom: 20px;
+			}
+		}
+
+		h2 {
+			text-shadow: $sombra-texto2;
+			font-family: $font-titles;
+			font-weight: 600;
+			padding-left: 0;
+			text-align: center;
+			padding-top: 40px;
+		}
+
+		.col-8 {
+			width: 44.66%;
+		}
+
+		.col-10 {
+			width: 100%;
+		}
+	}
+}
+
+@media (min-width: 776px) {
+
+	.centrado {
+		font-size: 27px;
+	}
+    
+	.centrado2 {
+		font-size: 15px;
+	}
+
+	.lanzamientos {
+		padding-left: 70px;
+
+		div {
+			img {
+				font-size: 13px;
+			}
+			p {
+				font-size: 13px;
+			}
+		}
+	}
+
+	div {
+
+		img {
+			font-size: 14px;
+		}
+		p {
+			font-size: 14px;
+		}
+	}
+
+	.famosos {
+		margin-top: 0px;
+
+		.borderImgBiza {
+			margin-left: 95px;
+		}
+		div {
+
+			img {
+				margin-left: 35px;
+			}
+		}
+
+		.col-5 {
+			width: 40%;
+		}
+	}
+}
+
+
+@media (min-width: 870px) {
+
+	.famosos{
+
+		.borderImgBiza {
+			margin-left: 110px;
+		}
+
+		
+}
+}
+
+@media (min-width: 996px) {
+
+	.empresas {
+		font-size: 14px;
+	}
+
+	.famosos {
+
+
+		.borderImgBiza {
+			margin-left: 135px;
+		}
+
+		div {
+			p {
+				font-size: 15px;
+			}
+			img {
+				margin-left: 100px;
+			}
+		}
+
+		.col-5 {
+			width: 33%;
+		}
+	}
+
+	.lanzamientos {
+		padding-left: 85px;
+
+		div {
+			img {
+				font-size: 15px;
+			}
+			p {
+				font-size: 15px;
+			}
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+
+	.centrado {
+		font-size: 32px;
+	}
+
+	.centrado2 {
+		font-size: 20px;
+	}
+
+	.famosos {
+		margin-top: 0px;
+
+		.borderImgBiza {
+			margin-left: 53px;
+		}
+
+		div {
+			img {
+				margin-left: 85px;
+			}
+		}
+		.col-5 {
+			width: 25%;
+		}
+	}
+}

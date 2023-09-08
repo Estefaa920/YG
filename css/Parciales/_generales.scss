@@ -1,0 +1,99 @@
+img {
+  max-width: 100%;
+ 
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.fondo {
+  background-image: url("../images/fondo_auto_x2.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+.logo {
+  margin-left: 7px;
+}
+
+.sombra {
+  box-shadow: $sombra1;
+}
+
+.sombra2 {
+  box-shadow: $sombra2;
+}
+
+.sombra4 {
+  box-shadow: $sombra4;
+}
+
+.sombra5 {
+  box-shadow: $sombra5;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rotate {
+
+  transition-duration: 3s;
+  transition-property: transform;
+  overflow: hidden;
+
+  &:hover {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 576px) {
+
+  body {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (min-width: 776px) {
+
+  body {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+}
+
+@media (min-width: 996px) {
+
+  body {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  body {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+
+@media (min-width: 1300px) {
+
+  body {
+    margin-left: 210px;
+    margin-right: 210px;
+  }
+
+  .overlay-content {
+    margin-top: 0;
+    position: fixed;
+    top: 17px;
+    right: 110px;
+  }
+}
